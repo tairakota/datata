@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="reform.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div class="anket">
+            アンケート<hr>
+        </div>
+        <div class="flex">
+            <div class="honbn">
+
+                <div class="youso">
+                    AxiZの研修をご利用いただき、誠にありがとうございます。<br>
+                    以下の内容の記入及び送信をして頂けると幸いです。
+                </div>
+
+                <diV class="youso">
+                    会社名
+                    <span>必須</span><br>
+                    <input type="text" id="text" name="company" placeholder="例）株式会社テクノコア" required><br>
+                </diV>
+
+                <div class="youso">
+                    お名前
+                    <span>必須</span><br>
+                    <input type="text" id="text" name="name" placeholder="例）手久野　興亜" required>
+                </div>
+
+                <div class="youso">
+                    メールアドレス<br>
+                    <input type="email" id="text" name="email" placeholder="例）example@axiz.co.jp">
+                </div>
+
+                <div class="youso">
+                    年齢<br>
+                    <input id="number" type="number" name="number" value="23">
+                </div>
+
+                <div class="youso">
+                    受講コース<br>
+                    <label>
+                        <input type="radio" name="course" value="java" checked>Java
+                    </label>
+                    <label>
+                        <input type="radio" name="course" value="infra">インフラ
+                    </label>
+                </div>
+
+                <div class="youso">
+                    会場<br>
+                    <select id="text" name="place">
+                        <option value="hasi" selected>日本橋A教室</option>
+                        <option value="tada">てだこホール</option>
+                        <option value="kenn">県立図書館</option>
+                        <option value="matuo">松尾教室</option>
+                    </select>
+                </div>
+
+                <div class="youso">
+                    詳しく学びたい内容（複数回答可）<br>
+                    <div>
+                        <label>
+                            <input type="checkbox" name="study" value="manners">ビジネスマナー
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="checkbox" name="study" value="htmlcss">HTML/CSS
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="checkbox" name="study" value="jas">JavaScript
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="checkbox" name="study" value="java">Java
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="checkbox" name="study" value="data">データベース
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="checkbox" name="study" value="linux">Linux
+                        </label>
+                    </div>
+                </div>
+
+                <div class="youso">
+                    ご意見<br>
+                    <textarea name="free" rows="7" cols="80" placeholder="自由にご記入ください。"></textarea>
+                </div>
+
+                <div class="youso">
+                    <button type="submit">送信する</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="matubi">
+            <hr>Copyright(C)AxiZ
+        </div>
+    </div>
+</body>
+</html>

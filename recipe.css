@@ -1,0 +1,29 @@
+body {
+	background-image:url('img/bg_Argyle.jpg');
+}
+
+div {
+    text-align:center;
+}
+
+.curry {
+    border-color:#ff817b;
+    border-style:double;
+}
+
+table {
+    background-color:rgb(255, 252, 193);
+    border-style:solid;
+    width:250px;
+    border-collapse:collapse;
+    border-color:#ff817b;
+}
+
+caption {
+    color:#ff817b;
+    font-weight:bold;
+}
+
+span {
+    display:flex;
+}

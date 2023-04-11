@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="form.css">
+    <title>質問・感想フォーム</title>
+</head>
+<body>
+    <h1>質問・感想フォーム</h1>
+    <div class="siro">
+        <form>
+            <p>氏名</p>
+            <input class="wak" type="text" name="name">
+
+            
+            <p>性別</p>
+            <div class="flex">
+                <div class="border">
+                    <input class="sei" type="radio" id="male" name="sei" value="male" checked>
+                        <label class="sei" for="male">男</label>
+                </div>
+                <div class="border">
+                    <input class="sei" type="radio" id="female" name="sei" value="female">
+                        <label for="female" class="sei" >女</label>
+                </div>
+            </div>
+
+            <p>年齢</p>
+            <select class="wak" name="年齢">
+                <option value="10dai" selected >10代</option>
+                <option value="20dai" >20代</option>
+                <option value="30dai" >30代</option>
+                <option value="40dai" >40代</option>
+                <option value="50dai" >50代</option>
+                <option value="60dai" >60代</option>
+            </select>
+
+            <p>今後見てみたいレシピ</p>
+            <div class="flex">
+                <div class="border">
+                    <input type="checkbox" id="washoku" name="washoku" value="washoku">
+                        <label for="washoku">和食</label>
+                </div>
+                <div class="border">
+                    <input type="checkbox" id="tyuka" name="tyuka" value="tyuka">
+                        <label for="tyuka">中華</label>
+                </div>
+                <div class="border">
+                    <input type="checkbox" id="yoshoku" name="yoshoku" value="yoshoku">
+                        <label for="yoshoku">洋食</label>
+                </div>
+                <div class="border">
+                    <input type="checkbox" id="itarian" name="itarian" value="itarian">
+                        <label for="itarian">イタリアン</label>
+                </div>
+                <div class="border">
+                    <input type="checkbox" id="sui-tu" name="sui-tu" value="sui-tu">
+                        <label for="sui-tu">スイーツ</label>
+                </div>
+                <div class="border">
+                    <input type="checkbox" id="others" name="others" value="others">
+                        <label for="others">その他</label>
+                </div>
+            </div>
+
+            <p>自由コメント欄</p>
+            <textarea class="wak" name="free" rows="3" cols="35"></textarea>
+
+            <br>
+            <button type="submit">送信</button>
+            <button type="reset">取り消し</button>
+        </form>
+    </div>
+</body>
+</html>
